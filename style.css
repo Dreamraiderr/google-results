@@ -1,0 +1,381 @@
+  
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.rotate90back {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.panel a {
+    text-decoration: none;
+    color: #525050;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-size: 13px;
+    color: #525050;
+    font-family: Arial;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar{
+    display: block;
+    
+    width: 100%;
+    overflow: hidden;
+    margin-top: 21px;
+}
+
+.left {
+    display: inline-block;
+    width: 50%;
+    float: left;
+    
+}
+
+.right {
+    display: inline-block;
+    width: 50%;
+    float: right;
+    
+}
+
+.apps {
+    float: right;
+    display: inline-block;
+    width: 4%;
+    margin: 8px 0 0 0;
+}
+
+.signin {
+    display: inline-block;
+    float: right;
+    text-align: center;
+    width: 13%;
+    height: 50px;
+    margin: 8px 5px 0 0;
+    
+}
+
+.signin button {
+    
+    display: inline-block;
+    height: 30px;
+    width: 70%;
+    border: 0;  
+    position: relative;
+    color: #fff;
+    background-color: #3f88f5;
+    border-radius: 3px;
+}
+
+
+.logo {
+    display: inline-block;
+    float: left;
+    margin: 8px 20px 0 20px;
+}
+
+.boxes {
+    display: block;
+    width: 100%;
+    text-align: center;
+    height: 30px;
+    padding: 30px;
+}
+
+.searchbar {
+   display: inline-block;
+   float: left;
+   width: 400px;
+}
+
+.voice {
+    position: relative;
+    right: 70px;
+    top: 5px;
+}
+
+.mag {
+    position: relative;
+    left: 730px;
+    bottom: 32px;
+}
+
+.input {
+    display: inline-block;
+    border-radius: 25px;
+    width: 630px;
+    height: 42px;
+    font-size: 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-decoration: none;
+    border: 1px #dbdbdb solid
+}
+
+.panel {
+    display: block;
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.All{
+    float: left;
+    display: inline-block;
+    width: 3.5%;
+    height: 30px;
+    margin-left: 140px;
+    text-align: center;
+}
+
+.Images{
+    float: left;
+    display: inline-block;
+    width: 4.5%;
+    height: 30px;
+    text-align: center;
+}
+
+.Videos{
+    float: left;
+    display: inline-block;
+    width: 4.5%;
+    height: 30px;
+    text-align: center;
+}
+
+.News{
+    float: left;
+    display: inline-block;
+    width: 4.5%;
+    height: 30px;
+    text-align: center;
+}
+
+.Shopping{
+    float: left;
+    display: inline-block;
+    width: 4.5%;
+    height: 30px;
+    text-align: center;
+}
+
+.More{
+    float: left;
+    display: inline-block;
+    width: 4.5%;
+    height: 30px;
+    text-align: center;
+}
+
+.Settings{
+    float: left;
+    display: inline-block;
+    width: 8%;
+    height: 30px;
+    text-align: right;
+}
+
+.Tools{
+    float: left;
+    display: inline-block;
+    width: 4%;
+    height: 30px;
+    text-align: right;
+}
+
+p.results {
+    margin-left: 160px;
+}
+
+p.top {
+    font-size: 18px;
+    color: black;
+    margin: 15px 0 10px 165px;
+}
+
+.pictures {
+    box-sizing: border-box;
+    width: 635px;
+    height: 286px;
+    margin-left: 132px;
+}
+
+.ad1 {
+    display: inline-block;
+    margin: 3px;
+    overflow: hidden;
+    height: 280px;
+    width: 200px;
+    border: #dbdbdb solid 1px;
+    border-radius: 10px;
+}
+
+.line1 {
+    position: relative;
+    top: -120px;
+    background-color: white;
+    width: 200px;
+    height: 80px;
+    padding: 15px 15px 0 15px;
+    box-sizing: border-box;
+}
+
+.site1 {
+    position: relative;
+    top: -122px;
+    left: 15px;
+    color: #013d04
+}
+
+.date1 {
+    position: relative;
+    top: -132px;
+    left: 15px;
+}
+
+.ad1 img {
+    position: relative;
+    top: -95px;
+    left: -60px;
+}
+
+.ad2 {
+    display: inline-block;
+    margin: 3px;
+    overflow: hidden;
+    height: 280px;
+    width: 200px;
+    border-radius: 10px;
+    border: #dbdbdb solid 1px;
+}
+
+.ad2 img {
+    position: relative;
+    top: -40px;
+    
+}
+
+.line2 {
+    position: relative;
+    top: -70px;
+    background-color: white;
+    width: 200px;
+    height: 80px;
+    padding: 15px 15px 0 15px;
+    box-sizing: border-box;
+}
+
+
+.site2 {
+    position: relative;
+    top: -72px;
+    left: 15px;
+    color: #013d04
+}
+
+.date2 {
+    position: relative;
+    top: -80px;
+    left: 15px;
+}
+
+.ad3 {
+    display: inline-block;
+    margin: 3px;
+    overflow: hidden;
+    height: 280px;
+    width: 200px;
+    border: #dbdbdb solid 1px;
+    border-radius: 10px;
+}
+
+.ad3 img {
+    position: relative;
+    top: -50px;
+    
+}
+
+.line3 {
+    position: relative;
+    top: -70px;
+    background-color: white;
+    width: 200px;
+    height: 80px;
+    padding: 15px 15px 0 15px;
+    box-sizing: border-box;
+}
+
+.site3 {
+    position: relative;
+    top: -72px;
+    left: 15px;
+    color: #013d04
+}
+
+.date3 {
+    position: relative;
+    top: -80px;
+    left: 15px;
+}
+
+.articles {
+    box-sizing: border-box;
+    width: 595px;
+    height: 180px;
+    margin: 20px 0 0 150px;
+    
+}
+
+.arthead {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.artsub {
+    font-size: 14px;
+    margin-top: 7px;
+    margin-bottom: 0;
+}
+
+.artbody {
+    margin: 7px 0 7px 0;
+}
+
+.leftcat {
+    display: inline-block;
+    float: left;
+    margin: 0 15px 5px 0;
+    line-height: 18px;
+}
+
+.rightcat {
+    display: inline-block;
+    float: left;
+    margin-top: 0;
+    margin-bottom: 5px;
+    line-height: 18px;
+}
+
+.bottomline {
+    display: block;
+    clear: both;
+    
+}
